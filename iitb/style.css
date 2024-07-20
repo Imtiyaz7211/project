@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+nav {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    color: #4a4a4a;
+}
+
+.book-list {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.book-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+.book-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.book-list li {
+    margin: 10px 0;
+}
+
+.book-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2em;
+}
+
+.book-list a:hover {
+    text-decoration: underline;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003d80;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    color: #777;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
